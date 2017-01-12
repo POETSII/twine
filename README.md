@@ -11,7 +11,7 @@ requires 470 ALMs.
 
 Download, build and install the RISC-V compiler tools from:
 
-  [https://github.com/riscv/riscv-tools]()
+  [https://github.com/riscv/riscv-tools](https://github.com/riscv/riscv-tools)
 
 Ensure the `RISCV` environment variable is set and `$RISCV/bin` is in
 your `PATH`.
@@ -24,7 +24,8 @@ To run the RISC-V test suite, starting from the `twine` directory:
   ./run.sh
 ```
 
-To build the software that runs on the core:
+To build the software that runs on the core (hello world), starting
+from the `twine` directory:
 
 ```
   make -C software
