@@ -9,7 +9,14 @@ requires 470 ALMs.
 
 ## Getting started
 
-To run the RISC-V test suite:
+Download, build and install the RISC-V compiler tools from:
+
+  [https://github.com/riscv/riscv-tools]()
+
+Ensure the `RISCV` environment variable is set and `$RISCV/bin` is in
+your `PATH`.
+
+To run the RISC-V test suite, starting from the `twine` directory:
 
 ```
   make -C rtl
