@@ -1,11 +1,11 @@
 # Binary utilities
-RV_ARCH    = RV32I
+RV_ARCH    = rv32i
 RV_CC      = riscv64-unknown-elf-gcc
 RV_LD      = riscv64-unknown-elf-ld
 RV_OBJCOPY = riscv64-unknown-elf-objcopy
 
 # Compiler and linker flags
-CFLAGS  = -march=$(RV_ARCH) -msoft-float -O2 -I.
+CFLAGS  = -mabi=ilp32 -march=$(RV_ARCH) -O2 -I.
 LDFLAGS = -melf32lriscv -G 0 
 
 # Directories containing RTL, Quartus project, and scripts
