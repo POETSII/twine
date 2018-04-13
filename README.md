@@ -9,6 +9,8 @@ requires 470 ALMs.
 
 ## Getting started
 
+You will need [Bluespec](http://bluespec.com/54621-2/) compiler (`bsc`) to build Twine.
+
 Download, build and install the RISC-V compiler tools from:
 
   [https://github.com/riscv/riscv-tools](https://github.com/riscv/riscv-tools)
