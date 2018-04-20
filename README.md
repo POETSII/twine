@@ -33,7 +33,7 @@ from the `twine` directory:
   make -C software
 ```
 
-To build an FPGA bit-file:
+To build an FPGA bit-file, you need Quartus v16.0 or above:
 
 ```
   make -C de5
