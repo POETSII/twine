@@ -21,6 +21,7 @@ your `PATH`.
 To run the RISC-V test suite, starting from the `twine` directory:
 
 ```
+  make clean
   make -C rtl
   cd tests
   ./run.sh
@@ -36,6 +37,7 @@ from the `twine` directory:
 To build an FPGA bit-file, you need Quartus v16.0 or above:
 
 ```
+  make clean
   make -C de5
 ```
 
